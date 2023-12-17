@@ -1,0 +1,92 @@
+.content_register {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.form_register {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px 100px 1fr;
+  box-shadow: 2px 2px 8px 2px #ccc;
+  padding: 20px;
+  width: 450px;
+  border-radius: 15px;
+}
+
+.div_heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div_heading h1 {
+  font-weight: 700;
+  color: #910657;
+}
+
+.div_data_company {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.div_data_company h5 {
+  font-weight: 600;
+  color: #910657;
+}
+
+.div_data_agent {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.div_data_agent h5 {
+  font-weight: 600;
+  color: #910657;
+}
+
+.form-control:focus {
+  box-shadow: -1px 0px 3px 3px rgba(125,6,104,0.41);
+}
+
+.div_data_agent .btn-primary {
+  border: none;
+  background: #910657;
+}
+
+.div_data_agent .btn-primary:hover {
+  color: white;
+  background: #5c0236;
+}
+
+.btn-primary:focus {
+  box-shadow: -1px 0px 3px 3px rgba(125,6,104,0.41);
+}
+
+.div_message_error {
+  text-align: center;
+  padding: 15px;
+  display: none;
+}
+
+.div_message_error span {
+  color: rgb(255, 0, 0);
+  font-weight: 600;
+}
+
+.div_message_confirm {
+  text-align: center;
+  padding: 15px;
+  display: none;
+}
+
+.show_div_message {
+  display: block;
+}
+
