@@ -19,16 +19,21 @@
                 <h1>Nuevo Registro</h1>
             </div>
             <div class="div_data_company">
-                <h5>Datos Empresa</h5><input class="form-control" type="text" placeholder="RUT Empresa (111111111-1)">
+                <h5>Datos Empresa</h5><input class="form-control" type="text" placeholder="RUT Empresa (111111111-1)" name="rut_empresa">
             </div>
             <div class="div_data_agent">
-                <h5>Datos Solicitante</h5><input class="form-control" type="text" placeholder="Nombre Solicitante"><input class="form-control" type="text" placeholder="Correo Solicitante"><input class="form-control" type="text" placeholder="Teléfono"><input class="form-control" type="password" placeholder="Contraseña"><button class="btn btn-primary" type="submit">Crear Cuenta</button>
+                <h5>Datos Solicitante</h5>
+                <input class="form-control" type="text" placeholder="Nombre Solicitante" name="nombre_solicitante">
+                <input class="form-control" type="text" placeholder="Correo Solicitante" name="correo_solicitante">
+                <input class="form-control" type="password" placeholder="Contraseña" name="pass_solicitante">
+                <button class="btn btn-primary" type="submit">Crear Cuenta</button>
             </div>
             <div class="div_message_error"><span>La empresa no existe o el rut es incorrecto.&nbsp;</span></div>
             <div class="div_message_confirm"><span>Cuenta creada Correctamente&nbsp;</span><a href="index.html">Iniciar Sesión</a></div>
         </form>
     </div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/register.js"></script>
 </body>
 
 </html>
